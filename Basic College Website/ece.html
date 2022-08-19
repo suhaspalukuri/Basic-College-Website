@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>University of Education</title>
+        
+    </head>
+    <style>
+        body{
+            background-image:linear-gradient(rgba(0,0,0,0.83),rgba(0,0,0,0.83)), url("1.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+    
+        .submenu a.active1{
+            background-color: white;
+            color: black;
+        }
+        ul{
+            float: right;
+            list-style-type: none;
+            margin-top: 25px;
+        }
+        ul li{
+            display: inline-block;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        ul li a{
+            
+            text-decoration: none;
+            color: aliceblue;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        }
+        ul li a:hover{
+            background-color: #fff;
+            color: black;
+
+        }
+        
+        .logo img{
+            float: left;
+            width: 80px;
+            height: auto;
+            
+        }
+        .main{
+            max-width: 1200px;
+            margin: auto;
+        }
+        .submenu ul{
+            position: absolute;
+            top: 35%;
+            left: 17.5%;
+            transform: translate(-50%,-50%);
+        }
+        .deptinfo{
+            text-decoration: solid;
+            font-family: Verdana;
+            position: absolute;
+            top: 25%;
+            left: 10%;color: beige;
+
+        }
+        p{
+            position: absolute;
+            top: 58%;
+            margin-top: 25px;
+            left:43.7%;
+            
+            transform: translate(-60%,-60%);
+            color: bisque;
+            font-family: verdana;
+            font-size: medium;
+
+
+        }
+        
+    </style>
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <a href="Home.html"><img src="logo1.png"></a>
+                </div>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="dept.html">Departments</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="submenu">
+            <h1 class="deptinfo">About All Departments</h1>
+            <ul>
+                <li><a href="cse.html">CSE</a></li>
+                <li><a class="active1" href="ece.html">ECE</a></li>
+                <li><a href="it.html">IT</a></li>
+                <li><a href="mech.html">MECH</a></li>
+                
+            </ul>
+        </div>
+        <p>Electronics engineering is a sub-discipline of electrical engineering which emerged in the early 20th century and is distinguished by the additional use of active components such as semiconductor devices to amplify and control electric current flow. Previously electrical engineering only used passive devices such as mechanical switches, resistors, inductors and capacitors.
+
+            It covers fields such as: analog electronics, digital electronics, consumer electronics, embedded systems and power electronics. It is also involved in many related fields, for example solid-state physics, radio engineering, telecommunications, control systems, signal processing, systems engineering, computer engineering, instrumentation engineering, electric power control, robotics.
+            
+            The Institute of Electrical and Electronics Engineers (IEEE) is one of the most important professional bodies for electronics engineers in the US; the equivalent body in the UK is the Institution of Engineering and Technology (IET). The International Electrotechnical Commission (IEC) publishes electrical standards including those for electronic engineering.</p>        
+    </body>
+
+</html>

@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>University of Education</title>
+        
+    </head>
+    <style>
+        body{
+            background-image:linear-gradient(rgba(0,0,0,0.83),rgba(0,0,0,0.83)), url("1.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+    
+        .submenu a.active1{
+            background-color: white;
+            color: black;
+        }
+        ul{
+            float: right;
+            list-style-type: none;
+            margin-top: 25px;
+        }
+        ul li{
+            display: inline-block;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        ul li a{
+            
+            text-decoration: none;
+            color: aliceblue;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        }
+        ul li a:hover{
+            background-color: #fff;
+            color: black;
+
+        }
+        
+        .logo img{
+            float: left;
+            width: 80px;
+            height: auto;
+            
+        }
+        .main{
+            max-width: 1200px;
+            margin: auto;
+        }
+        .submenu ul{
+            position: absolute;
+            top: 35%;
+            left: 17.5%;
+            transform: translate(-50%,-50%);
+        }
+        .deptinfo{
+            text-decoration: solid;
+            font-family: Verdana;
+            position: absolute;
+            top: 25%;
+            left: 10%;color: beige;
+
+        }
+        p{
+            position: absolute;
+            top: 65%;
+            margin-top: 25px;
+            left:43.7%;
+            
+            transform: translate(-60%,-60%);
+            color: bisque;
+            font-family: verdana;
+            font-size: medium;
+
+
+        }
+        
+    </style>
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <a href="Home.html"><img src="logo1.png"></a>
+                </div>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a class="active" href="Blog.html">Blog</a></li>
+                    <li><a href="dept.html">Departments</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="submenu">
+            <h1 class="deptinfo">About All Departments</h1>
+            <ul>
+                <li><a class="active1" href="cse.html">CSE</a></li>
+                <li><a href="ece.html">ECE</a></li>
+                <li><a href="it.html">IT</a></li>
+                <li><a href="mech.html">MECH</a></li>
+                
+            </ul>
+            
+
+        </div>
+        <p>
+            Computer Science and Engineering (CSE) is an academic program at many universities which comprises scientific and engineering aspects of computing. CSE is also a term often used in Europe to translate the name of engineering informatics academic programs. It is offered in both Undergraduate as well Postgraduate with specializations.
+            Academic programs vary between colleges. Undergraduate Courses usually include programming, algorithms and data structures, computer architecture, operating systems, computer networks, parallel computing, embedded systems, algorithms design, circuit analysis and electronics, digital logic and processor design, computer graphics, scientific computing, software engineering, database systems, digital signal processing, virtualization, computer simulations and games programming. CSE programs also include core subjects of theoretical computer science such as theory of computation, numerical methods, machine learning, programming theory and paradigms.[2] Modern academic programs also cover emerging computing fields like image processing, data science, robotics, bio-inspired computing, computational biology, autonomic computing and artificial intelligence.[3] Most of the above CSE areas require initial mathematical knowledge, hence the first year of study is dominated by mathematical courses, primarily discrete mathematics, mathematical analysis, linear algebra, Probability, and statistics, as well as the basics of Electrical and electronic engineering, physics - field theory, and electromagnetism.
+
+        
+        </p>
+    </body>
+</html>
